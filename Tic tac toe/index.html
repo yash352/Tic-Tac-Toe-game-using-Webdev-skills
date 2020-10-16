@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <title>Tic Tac Toe</title>
+    <script src="./js/game.js"></script>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <tr>
+                <td><button id="20" class="button" type="button" onclick="point('20')"></button></td>
+                <td><button id="21" class="button" type="button" onclick="point('21')"></button></td>
+                <td><button id="22" class="button" type="button" onclick="point('22')"></button></td>
+            </tr>
+            <tr>
+                <td><button id="10" class="button" type="button" onclick="point('10')"></button></td>
+                <td><button id="11" class="button" type="button" onclick="point('11')"></button></td>
+                <td><button id="12" class="button" type="button" onclick="point('12')"></button></td>
+            </tr>
+            <tr>
+                <td><button id="00" class="button" type="button" onclick="point('00')"></button></td>
+                <td><button id="01" class="button" type="button" onclick="point('01')"></button></td>
+                <td><button id="02" class="button" type="button" onclick="point('02')"></button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="winner-div">
+        <h1 id="winner-h1"></h1>
+        <button type="button" onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>
